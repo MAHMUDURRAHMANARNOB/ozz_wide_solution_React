@@ -34,19 +34,19 @@ export default function Contact() {
     {
       icon: Phone,
       title: 'Call Us',
-      details: ['1300 OZZ WIDE', '(1300 699 943)'],
+      details: ['(0429 772 624)'],
       description: '24/7 Emergency Hotline',
     },
     {
       icon: Mail,
       title: 'Email Us',
-      details: ['info@ozzwidesolutions.com.au', 'emergency@ozzwidesolutions.com.au'],
+      details: ['info@ozzwidesolutions.com.au'],
       description: 'Quick Response Guaranteed',
     },
     {
       icon: MapPin,
       title: 'Head Office',
-      details: ['123 Electrical Avenue', 'Sydney, NSW 2000'],
+      details: ['Unit 6, 78 Harley Crescent, Condell Park', 'Sydney, NSW 2200'],
       description: 'Sydney & NSW Service',
     },
     {

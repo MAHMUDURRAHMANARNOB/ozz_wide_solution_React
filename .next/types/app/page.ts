@@ -1,4 +1,4 @@
-// File: /Users/mahmudurrahman/Desktop/01. Projects/Web Projects/ozz-wide-solutions/app/page.tsx
+// File: /Users/mahmudurrahman/Desktop/01. Projects/Web Projects/ozz_wide_solution_React/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

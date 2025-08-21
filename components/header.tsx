@@ -25,7 +25,9 @@ export default function Header() {
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
               <Image
-                src="/images/ozz-logo.png"
+                // src="/images/ozz-logo.png"
+                src="/images/ozz_wide_logo_1.png"
+                
                 alt="Ozz Wide Solutions - Australian Electrical Solutions"
                 width={180}
                 height={60}
@@ -56,7 +58,7 @@ export default function Header() {
               aria-label="Call us at 1300 OZZ WIDE"
             >
               <Phone className="h-4 w-4 mr-2" />
-              <span className="font-medium">1300 OZZ WIDE</span>
+              <span className="font-medium">0429 772 624</span>
             </Link>
             <Button 
               asChild

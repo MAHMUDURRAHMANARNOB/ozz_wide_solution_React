@@ -31,17 +31,17 @@ export default function Coverage() {
             <div className="aspect-square bg-white rounded-2xl shadow-lg p-8 border">
               <div className="w-full h-full bg-slate-100 rounded-xl flex items-center justify-center relative overflow-hidden">
                 <img
-                  src="/australia-electrical-coverage.png"
+                  src="/sydney-coverage-map.jpeg"
                   alt="Sydney and NSW coverage map showing Ozz Wide Solutions service areas"
                   className="w-full h-full object-contain"
                 />
                 {/* Overlay indicators */}
-                {/* <div className="absolute inset-0 flex items-center justify-center">
+                <div className="absolute inset-0 flex items-left justify-left p-4 space-x-4">
                   <div className="text-center">
                     <div className="text-2xl font-bold text-slate-900 mb-2">Sydney & NSW</div>
                     <div className="text-sm text-slate-600">Complete Coverage</div>
                   </div>
-                </div> */}
+                </div>
               </div>
             </div>
             

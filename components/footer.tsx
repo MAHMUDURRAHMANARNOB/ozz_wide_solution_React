@@ -49,16 +49,29 @@ export default function Footer() {
         <div className="grid lg:grid-cols-5 gap-8 mb-12">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <div className="mb-6">
+            {/* <div className="mb-6 rounded">
               <Image
-                src="/images/ozz-logo.png"
+                src="/images/ozz_wide_logo_1.png"
                 alt="Ozz Wide Solutions"
                 width={200}
                 height={67}
-                className="h-16 w-auto brightness-0 invert"
+                className="h-16 w-auto"
               />
-            </div>
-            <p className="text-slate-300 mb-6 leading-relaxed">
+            </div> */}
+            <Link href="/" className="flex items-center space-x-3">
+              <div className="bg-white p-2 rounded-lg">
+                <Image 
+                    src={"images/ozz_wide_logo_1.png"} 
+                    alt="Ozz Wide Logo" 
+                    width={100} // Specify the width of your image in pixels
+                    height={100} // Specify the height of your image in pixels
+                    // You might also add 'className' here for styling the image itself if needed
+                  />
+              </div>
+             
+            
+          </Link>
+            <p className="text-slate-300 mb-6 mt-6 leading-relaxed">
               Sydney's trusted electrical solutions provider with over 30 years of experience. 
               Delivering safe, reliable, and innovative electrical services across Sydney and NSW.
             </p>
@@ -67,7 +80,7 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center text-slate-300">
                 <Phone className="h-4 w-4 mr-3 text-orange-400" />
-                <span>1300 OZZ WIDE (1300 699 943)</span>
+                <span>+61 429 772 624</span>
               </div>
               <div className="flex items-center text-slate-300">
                 <Mail className="h-4 w-4 mr-3 text-orange-400" />
@@ -75,7 +88,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center text-slate-300">
                 <MapPin className="h-4 w-4 mr-3 text-orange-400" />
-                <span>Sydney & NSW Coverage</span>
+                <span>Unit 6, 78 Harley Crescent, Condell Park, 2200</span>
               </div>
             </div>
 
