@@ -92,8 +92,8 @@ export default function Coverage() {
                 <div className="flex items-center text-slate-700">
                   <Phone className="h-5 w-5 text-orange-600 mr-3" />
                   <div>
-                    <div className="font-medium">1300 OZZ WIDE</div>
-                    <div className="text-sm text-slate-500">National Hotline</div>
+                    <div className="font-medium">0429 772 624</div>
+                    <div className="text-sm text-slate-500">Call Anytime</div>
                   </div>
                 </div>
                 <div className="flex items-center text-slate-700">
