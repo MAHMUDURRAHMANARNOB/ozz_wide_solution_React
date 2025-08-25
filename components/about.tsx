@@ -5,7 +5,7 @@ export default function About() {
   const features = [
     {
       icon: Shield,
-      title: "30+ Years Experience",
+      title: "10+ Years Experience",
       description: "Three decades of delivering safe, reliable electrical solutions across Australia.",
       image: "/images/experienced-electrician.jpg",
     },

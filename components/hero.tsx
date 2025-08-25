@@ -6,7 +6,7 @@ import Link from "next/link"
 export default function Hero() {
   const trustBadges = [
     { icon: Award, text: "CEC Accredited" },
-    { icon: CheckCircle, text: "30+ Years Experience" },
+    { icon: CheckCircle, text: "10+ Years Experience" },
     { icon: MapPin, text: "Sydney & NSW Coverage" },
     { icon: Clock, text: "24/7 Emergency Support" },
   ]

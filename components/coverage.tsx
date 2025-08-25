@@ -54,7 +54,7 @@ export default function Coverage() {
             </div>
             <div className="absolute -bottom-4 -left-4 bg-white rounded-xl p-4 shadow-lg border">
               <div className="text-center">
-                <div className="text-2xl font-bold text-slate-900">30+</div>
+                <div className="text-2xl font-bold text-slate-900">10+</div>
                 <div className="text-xs text-slate-600">Suburbs</div>
               </div>
             </div>
