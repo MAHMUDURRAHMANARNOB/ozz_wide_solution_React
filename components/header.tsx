@@ -55,7 +55,7 @@ export default function Header() {
             <Link
               href="tel:1300-OZZ-WIDE"
               className="flex items-center text-slate-700 hover:text-orange-600 transition-colors"
-              aria-label="Call us at 1300 OZZ WIDE"
+              aria-label="Call us at 0429 772 624"
             >
               <Phone className="h-4 w-4 mr-2" />
               <span className="font-medium">0429 772 624</span>
@@ -105,10 +105,10 @@ export default function Header() {
                 <Link
                   href="tel:1300-OZZ-WIDE"
                   className="flex items-center px-3 py-2 text-slate-700 hover:text-orange-600 transition-colors"
-                  aria-label="Call us at 1300 OZZ WIDE"
+                  aria-label="Call us at 0429 772 624"
                 >
                   <Phone className="h-4 w-4 mr-2" />
-                  <span className="font-medium">1300 OZZ WIDE</span>
+                  <span className="font-medium">0429 772 624</span>
                 </Link>
                 <div className="px-3 py-2">
                   <Button 
