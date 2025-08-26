@@ -7,13 +7,13 @@ import Link from "next/link"
 export default function Projects() {
   const projects = [
     {
-      title: "Sydney CBD Office Complex",
+      title: "Luxary Residential Home",
       location: "Sydney, NSW",
       type: "Commercial",
-      image: "/modern-office-electrical-sydney.png",
+      image: "images/condell_park_project.jpg",
       description:
-        "Complete electrical fit-out for 20-story commercial building including emergency systems and data infrastructure.",
-      stats: { duration: "6 months", team: "12 electricians" },
+        "Complete electrical fit-out for a new home in Condell Park, NSW",
+      stats: { duration: "6 months", team: "3 electricians" },
       gallery: ["/office-electrical-panel.png", "/emergency-lighting-system.png", "/data-cabling-installation.png"],
     },
     {
