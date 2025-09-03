@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { CheckCircle, Award, Clock, MapPin, Zap, Shield } from "lucide-react"
 import Link from "next/link"
+import { motion } from "framer-motion"
+import Image from "next/image"
 
 export default function Hero() {
   const trustBadges = [
@@ -25,9 +27,17 @@ export default function Hero() {
           {/* Content */}
           <div className="space-y-8 animate-fade-in-up">
             <div className="space-y-4">
+              <Image
+                src="images/ozz-logo.png"
+                alt="Trades Mates Building Logo"
+                width={150}
+                height={150}
+                className="drop-shadow-[0_0_10px_rgba(255,200,0,0.5)] rounded-lg animate-bounce-subtle"
+                priority
+              />
               <div className="flex items-center space-x-2 mb-4">
                 <Zap className="h-6 w-6 text-orange-600 animate-pulse" />
-                <Badge className="bg-orange-100 text-orange-800 border-orange-200 animate-bounce-subtle">
+                <Badge className="bg-orange-100 text-orange-800 border-orange-200">
                   Professional Electrical Solutions
                 </Badge>
               </div>
