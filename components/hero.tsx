@@ -28,7 +28,7 @@ export default function Hero() {
           <div className="space-y-8 animate-fade-in-up">
             <div className="space-y-4">
               <Image
-                src="images/ozz-logo.png"
+                src="images/ozz_wide_logo_1.png"
                 alt="Trades Mates Building Logo"
                 width={150}
                 height={150}
